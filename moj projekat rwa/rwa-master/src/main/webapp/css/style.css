@@ -1,0 +1,281 @@
+h5 {
+    color: #aaaaaa;
+}
+
+.main.menu {
+    margin-top: 4em;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    transition:
+    box-shadow 0.5s ease,
+    padding 0.5s ease
+    ;
+}
+
+.main.menu .item img.logo {
+	width: 150px;
+}
+
+.main.menu.fixed {
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#mobile-menu {
+    display: none;
+}
+
+#mobile-menu-items {
+    position: fixed; 
+    top: 34px; 
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+#tagline h1 {
+    font-size: 6vw;
+    margin: 0;
+    padding: 0;
+    color: #4AD1B3;
+}
+
+#tagline h2 {
+    font-size: 1.8em;
+    margin: 0;
+    padding: 0;
+    color: #777777;
+}
+
+#random-quizzes {
+    margin-top: 50px;
+}
+
+.quiz-holder {
+    border-radius: 16px;
+}
+
+.quiz-holder:hover {
+    cursor: pointer;
+}
+
+.quiz-holder:hover figure::before {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.quiz-holder figure::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    content: '';
+    border-radius: 16px;
+    z-index: 5;
+    transition: background 0.3s;
+}
+
+.quiz-holder figure {
+  position: relative;
+  padding: 30% 0;
+  border-radius: 16px;
+}
+
+.quiz-holder figcaption {
+    display: flex;
+    z-index: 6;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+.quiz-holder figcaption h1 {
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0px 0px 5px black;
+}
+
+.quiz-holder img {
+    z-index: 4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+    border-radius: 16px;
+    box-shadow: 0px 0px 8px #aaaaaa;
+}
+
+#index-meta-data {
+    margin-top: 50px;
+}
+
+#index-meta-data h3 {
+    text-align: center;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.quiz-circular-single {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  float: right;
+}
+
+.quiz-circular-single img {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.start-quiz {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.start-quiz button {
+    width: 80%;
+}
+
+.quiz-timer {
+    float: right;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    color: #00aa22;
+}
+
+.quiz-question-number {
+    font-size: 16px;
+    color: #aaaaaa;
+}
+
+.quiz-question-number p:hover {
+    color: #555555;
+    cursor: pointer;
+}
+
+.quiz-space {
+    margin-top: 50px;
+}
+
+.quiz-question {
+    margin-top: 10px;
+}
+
+.quiz-answers {
+    margin-top: 30px;
+}
+
+.quiz-answer {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #aaaaaa;
+    padding: 15px 10px;
+}
+
+.quiz-answer:hover {
+    border: 1px solid #349beb;
+    color: #349beb;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.selected-quiz-answer {
+	border: 1px solid #349beb;
+    color: #349beb;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-answer + .quiz-answer {
+    margin-top: 15px;
+}
+
+.answer-number {
+    color: #aaaaaa;
+    padding-right: 8px;
+}
+
+.quiz-buttons {
+    margin-top: 25px;
+    text-align: right;
+}
+
+.random-quiz img {
+    max-width: 200px;
+}
+
+#random-quizzes h4 {
+    color: #aaaaaa;
+    font-weight: normal;
+}
+
+.quiz-in-progress {
+	width: 100%;
+}
+
+.quiz-in-progress-wrapper {
+	width: 100%;
+}
+
+.users-playing-item {
+	background: #fff;
+}
+
+.users-playing-item:hover {
+	background: #fff;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 550px) {
+    #computer-menu {
+        display: none;
+    }
+
+    #mobile-menu {
+        display: block;
+    }
+
+    #mobile-menu a {
+        padding-top: 21px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+	.top-quiz-description {
+		display: none !important;
+	}
+}

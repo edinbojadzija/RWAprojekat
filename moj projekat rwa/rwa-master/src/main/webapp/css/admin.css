@@ -1,0 +1,13 @@
+body {
+	background-color: orange;
+	padding: 10%;
+	text-shadow: 0 0 3px #FF0000;
+	
+}
+
+td {
+	color: blue;
+	width: 180px;
+	height: 50px;
+	
+}

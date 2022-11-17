@@ -1,0 +1,13 @@
+body {
+	background-color:rgb(255, 255, 0);
+}
+
+h1 {
+	color: black;
+	font-family: "Monaco", "Courier New", monospace;
+	}
+
+.btn vote-btn {
+	color: red;
+	font-family: "Monaco", "Courier New", monospace;
+}

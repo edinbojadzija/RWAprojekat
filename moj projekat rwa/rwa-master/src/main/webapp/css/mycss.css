@@ -1,0 +1,180 @@
+html,body {
+    margin  : 10px;
+    padding : 10px;
+    background-color: darkgray;
+    font-family: 'Courier New', Courier, monospace;
+    color : darkred;
+
+}
+
+.Main {
+    width: 100%;
+    margin: auto;
+}
+
+.btnn {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	text-align: center;
+	margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 23%;
+    margin-bottom: 21.5%;
+    border-radius: 50px 20px;
+    background-color: orange;
+    text-decoration-style: dotted;
+	font-family: "Monaco", "Courier New", monospace;
+ }
+
+.navbar {
+    height : 50px;
+    overflow : initial;
+    background-color: orange;
+}
+
+.navbar h1 {
+    text-align: left;
+    font-size: 30px;
+    margin-left : 50px;
+}
+
+.buttonmenu { 
+    margin-right: 5%;
+}
+
+.title {
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 2%;
+    width : 40%;
+    display : inline-block;
+    text-align: center;
+    font-size: 20px;
+    background-color: orange;   
+    border-radius: 100px;
+
+}
+
+iframe {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 44.5%;
+    height: 25vmax;
+    border-radius: 10px;
+}
+
+.vote-btn {
+    background-color: darkred;
+    font-size: 15px;
+    margin-left: 20%;
+    margin-right: 21%;
+    margin-top: 1%;
+    border-radius: 40px;
+}
+
+.title-table {
+
+    background-color: darkred;
+    display : flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    border-radius: 65px;
+    max-height: 80px;
+    height: 100%;
+}
+
+
+
+.row {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+    background-color: darkred;
+    border-radius: 65px;
+}
+
+.column {
+    margin-top : 1%;
+    margin-left : 5%;
+    height : 22vmax;
+    text-align: center;
+    display : inline-block;
+    width: 35%;
+}
+
+.thumbnail {
+    margin-top: 2%;
+    height: 90%;
+    width: 90%;
+    border-radius: 50px;
+    border-color: yellow;
+}
+
+.column-text {
+    color : blue;
+    width: 40%;
+    height: 40%;
+
+}
+
+.column-vote {
+    width: 40%;
+    height: 30%;
+}
+
+.footer {
+    text-align: center;
+    font-size: 20px;
+    color: chartreuse;
+}
+
+.title-table .column-text {
+    color : blue;
+    font-size: 2vmax;
+}
+
+.right {
+	margin-top: 10px;
+	text-align: right;
+}
+
+.pagination {
+	display: inline-block;
+}
+
+.pagination a {
+	color: white;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+	border: 1px solid #ddd;
+	margin: 0 4px;
+}
+
+.pagination a.active {
+	background-color: #e0233d;
+	color: white;
+	border: 1px solid #e0233d;
+}
+
+.pagination a:hover:not(.active) {background-color: #e0233d;}
+
+
+#tableid {
+	
+	width:500px;
+	font-size:default;
+	
+}
+
+.pageCenter {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	float: none;
+}
+

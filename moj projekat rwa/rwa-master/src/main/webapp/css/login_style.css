@@ -1,0 +1,22 @@
+body > .grid {
+	height: 100%;
+	background-color: white;
+}
+.image {
+	margin-top: -200px;
+}
+.column {
+	max-width: 600px; 
+}
+
+.ui.large.form {
+	
+	width: 500px;
+	height: 600px;
+	margin-top: 51%;
+    margin-bottom: 51.5%;
+}
+
+#errorMessage {
+	color:red;
+}
